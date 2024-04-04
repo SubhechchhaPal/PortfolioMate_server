@@ -1,0 +1,113 @@
+/* CSS Document */
+css for sell
+@charset "utf-8";
+/* CSS Document */
+*{
+	border:0px;
+	margin:0px;
+	padding:inherit;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;
+}
+html,body {
+	height: inherit;
+	background-repeat:!important;
+	background-size: contain;
+	width: inherit;
+	float: none;
+}
+footer{
+	line-height:50px;
+	position:relative;
+}
+.main{
+	display: grid;
+	grid-rows: auto 1fr auto;
+	min-height: 100vh;
+	height:auto;
+	left: 2px;
+}
+.content{
+	padding-bottom:inherit;
+	padding-left: 2px;
+	height:auto;
+	}
+
+.content h1{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:30px;
+	font-style:oblique;
+	color:#fff;
+	}
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  color: #fff;
+  background-color:#173245;
+  padding: 16px 20px;
+  font-size:20px;
+  border:none;
+  cursor: pointer;
+  position:relative;
+  bottom: 23px;
+  inline-box-align:initial;
+  width: 280px;
+  padding-top:10px;
+  margin-top:inherit;
+
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position:relative;
+  bottom:0;
+  z-index:9;
+  left:305px;
+  padding-top:0;
+  background-color:
+}
+
+/* Add styles to the form container */
+.form-container {
+  width:500px;
+  padding: 10px;
+  background-color:  #BF7E60;
+ align:center;
+}
+
+/* Full-width input fields */
+.form-container .table input[type=text]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  color:#000;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}/* CSS Document */
+
+

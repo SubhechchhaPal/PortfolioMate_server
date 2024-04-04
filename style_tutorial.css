@@ -1,0 +1,39 @@
+/* CSS Document */
+/* Tutorial page */
+
+*{
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	padding-right: 0;
+	padding-top: 0;
+}
+
+html,body {
+	height:inherit;
+	background-size:contain;
+	background-color:#4B9696;
+}
+
+footer{
+	line-height:50px;
+	position:relative;
+	height:50px;
+}
+.main{
+	display: grid;
+	grid-rows: auto 1fr auto;
+	min-height: 100vh;
+	left: 2px;
+}
+.content{
+	padding-left: 2px;
+	}
+p{
+color:#fff;
+font-size:25px;
+text-align:center;
+}
+ /* CSS Document */
+

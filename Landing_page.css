@@ -1,0 +1,42 @@
+
+*{
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	padding-right: 0;
+	padding-top: 0;
+}
+html,body {
+	height:inherit;
+	background-repeat:!important;
+	background-size:cover;
+	height:inherit;
+	}
+footer{
+	line-height:50px;
+	position:relative;
+}
+.main{
+	display: grid;
+	grid-rows: auto 1fr auto;
+	min-height: 100vh;
+	left: 2px;
+}
+.content{
+	padding-bottom: 270px;
+	padding-left: 2px;
+	}
+.content table a:hover{
+	color:#D9B310;
+	text-decoration:none;
+	}
+.content table a{
+	text-decoration:none;
+	color:#fff;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:30px;
+	}
+	
+ /* CSS Document */
+

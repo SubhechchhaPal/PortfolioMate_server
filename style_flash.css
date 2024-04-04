@@ -1,0 +1,36 @@
+/* CSS Document */
+{
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	padding-right: 0;
+	padding-top: 0;
+}
+html,body {
+	height:inherit;
+	background-color:#173245;
+	background-size: contain;
+	width: inherit;
+	float: none;
+}
+body h1{
+	font-style:oblique;
+	font-size:34px;
+	color:#fff;
+	text-align:center;
+	}
+
+.link{
+	text-align:center;
+	
+	}
+.link a{
+	color:#fff;
+	text-decoration:none;
+	font-size:44px;
+	margin:30px;
+	}
+.link a:hover{
+	color:#CC3;
+}
